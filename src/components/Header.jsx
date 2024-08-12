@@ -1,6 +1,6 @@
 import NavLayout from './common/NavLayout';
 import { HEADER_DATA_LIST } from '../utils/helper';
-import headerBottom from '../assets/images/webp/header-bottom-layer.png'
+import headerBottom from '../assets/images/webp/header-bottom-layer.webp'
 import { Link } from 'react-router-dom';
 const Header = () => {
 
