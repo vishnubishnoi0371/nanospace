@@ -16,7 +16,7 @@ const Explore = () => {
                     </div>  </div>
                 <div className="container custom-container">
                     <div className='flex relative flex-col justify-end md:items-end z-50 md:mt-20'>
-                        <img className='md:absolute lg:size-[256px] size-[180px] hidden md:block right-0 z-30 md:top-0 lg:-top-[18%]' src={robotHead} alt="robot" />
+                        <img className='md:absolute lg:size-[256px] size-[180px] hidden md:block right-0 z-30 md:top-0 xl:right-[-5%] lg:-top-[7%]' src={robotHead} alt="robot" />
                         <div className='p-5 md:p-8 lg:p-[50px] rounded-[10px] backdrop-blur-[30px] lg:backdrop-blur-[10px] max-w-full max-sm:mt-[320px] max-lg:mt-36 lg:mt-20 max-md:mt-[350px] bg-white bg-opacity-[4%]'>
                             <img className='w-[234px] h-[73px]' src={logo} alt="" />
                             <h2 className='font-bold text-start font-Orbitron text-3xl md:text-custom-4xl text-white mb-4 mt-6 !leading-120'>Explore NANOSPACE</h2>
