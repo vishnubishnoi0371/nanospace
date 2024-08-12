@@ -43,7 +43,7 @@ const NavLayout = () => {
                     ))}
                 </div>
                 <div  className='flex gap-4 items-center'>
-                    <Cta aria-label="Find more button " className=''>Find More</Cta>
+                    <Cta aria-label="Find more button">Find More</Cta>
 
                     <div onClick={() => setIsOpen(!isOpen)} className='relative z-50 cursor-pointer lg:hidden'>
                         <Icons icon={isOpen ? "nav-cross" : "nav-menu"} />

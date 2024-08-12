@@ -22,7 +22,7 @@ const Header = () => {
                                     {item.links.map((link, linkIndex) => (
                                         <Link key={linkIndex} target="_blank" rel="noopener noreferrer" to={link.url}>
                                             <img
-                                                className=""
+                                                className="h-9 w-[120px]"
                                                 src={link.imgSrc}
                                                 alt={link.alt}
                                             />
