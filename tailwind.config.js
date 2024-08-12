@@ -39,12 +39,7 @@ module.exports = {
       },
       boxShadow: {
         'nav-shadow': '0px 7px 10.9px 0px #0000002E',
-
       },
-      borderImageSource: {
-        'explore-bg-gradient': 'linear-gradient(228.77deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 41.25%, rgba(255, 255, 255, 0) 63.78%, rgba(255, 255, 255, 0) 97.97%)',
-      }
-
     },
   },
   plugins: [
@@ -55,11 +50,7 @@ module.exports = {
         },
         '.custom-container': {
           maxWidth: '1180px',
-        },
-        '.explore-bg-gradient': {
-          'border-image-source': 'linear-gradient(228.77deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 41.25%, rgba(255, 255, 255, 0) 63.78%, rgba(255, 255, 255, 0) 97.97%)',
-        },
-      
+        },      
       }
       addUtilities(newUtilities)
     },

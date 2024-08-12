@@ -34,7 +34,7 @@ const NavLayout = () => {
                             onClick={() => setIsOpen(false)}
                             to={item.url}
                             key={index}
-                            className="text-white hover:!bg-opacity-50 lg:hover:bg-dark-gray px-4 py-5 md:py-[26px] common-transition font-normal text-sm sm:text-base font-Saira relative max-lg:flex max-lg:w-full max-lg:justify-center">
+                            className="text-white hover:!bg-opacity-50 lg:hover:bg-dark-gray px-4 py-5 md:py-7 common-transition font-normal text-sm sm:text-base font-Saira relative max-lg:flex max-lg:w-full max-lg:justify-center">
                             {item.link}
                         </NavLink>
                     ))}
