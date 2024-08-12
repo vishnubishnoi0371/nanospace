@@ -6,7 +6,7 @@ const Header = () => {
 
     return (
         <div className='relative max-w-[1920px] mx-auto'>
-            <div className='bg-hero-bg min-h-screen flex flex-col lg:min-h-[810px] bg-center bg-no-repeat bg-cover'>
+            <div className='bg-hero-bg min-h-[85vh] flex flex-col lg:min-h-[810px] bg-center bg-no-repeat bg-cover'>
                 <NavLayout />
                 <div className=" grow flex relative z-10 flex-col">
                     <div className="flex-grow flex items-center justify-center">
@@ -34,7 +34,7 @@ const Header = () => {
                             </div>
                         </div>
                     </div>
-                    <img className='absolute bottom-0 w-full max-sm:bottom-[48px] max-sm:h-36 z-0' src={headerBottom} alt="layer bottom" />
+                    <img className='absolute bottom-0 w-full max-sm:bottom-[40px] max-sm:h-36 z-0' src={headerBottom} alt="layer bottom" />
                 </div>
             </div>
         </div>
