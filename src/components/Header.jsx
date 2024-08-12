@@ -6,7 +6,7 @@ const Header = () => {
 
     return (
         <div className='relative max-w-[1920px] mx-auto'>
-            <div className='bg-hero-bg min-h-screen flex flex-col  lg:min-h-[810px] bg-center bg-no-repeat bg-cover'>
+            <div className='bg-hero-bg min-h-screen flex flex-col lg:min-h-[810px] bg-center bg-no-repeat bg-cover'>
                 <NavLayout />
                 <div className=" grow flex relative z-10 flex-col">
                     <div className="flex-grow flex items-center justify-center">
