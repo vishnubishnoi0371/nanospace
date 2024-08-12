@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+.text_shadow {
+    text-shadow: 1px 1px 2px #00000040;
+}
