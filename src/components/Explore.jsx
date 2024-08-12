@@ -5,7 +5,7 @@ import { EXPLORE_DATA_LIST } from '../utils/helper';
 
 const Explore = () => {
     return (
-        <div className='max-w-[1920px] mx-auto'>
+        <div className='max-w-[1920px] mx-auto -mt-1'>
             <div className='relative overflow-hidden min-h-[650px] xl:min-h-[800px] pb-20 bg-dark-black'>
                 <div className=' absolute z-10 md:w-[500px] md:h-[700px] lg:w-[700px] lg:h-[900px] xl:w-[880px] xl:h-[1070px] left-3 xl:left-10 lg:-bottom-[30%]'>
                     <div className='relative'>
@@ -16,7 +16,7 @@ const Explore = () => {
                 <div className="container custom-container">
                     <div className='flex relative flex-col justify-end lg:items-end z-50 md:mt-20'>
                         <img className='md:absolute lg:size-[256px] size-[180px] hidden md:block md:right-0 z-30 md:top-[29%] xl:right-[-5%] lg:-top-[7%]' src={robotHead} alt="robot" />
-                        <div className='p-5 md:p-8 lg:p-[50px_50px_34px_50px] rounded-[10px] backdrop-blur-[30px] lg:backdrop-blur-[4px] max-w-full max-sm:mt-[320px] max-lg:mt-[350px] lg:mt-20 max-md:mt-[350px] bg-white bg-opacity-[4%]'>
+                        <div className='p-5 md:p-8 lg:p-[50px_50px_34px_50px] rounded-[10px] backdrop-blur-[30px] xl:backdrop-blur-[4px] max-w-full max-sm:mt-[320px] max-lg:mt-[350px] lg:mt-20 max-md:mt-[350px] bg-white bg-opacity-[4%]'>
 
                             <div className='w-[234px] relative h-[73px]'>
                                 <div className=' absolute'>
