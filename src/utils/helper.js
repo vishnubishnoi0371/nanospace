@@ -6,9 +6,9 @@ import googlePlay from '../assets/images/svg/google-play.svg';
 export const HEADER_DATA_LIST = [
     {
         links: [
-            { href: 'https://discord.com/', imgSrc: discord, alt: 'Discord' },
-            { href: 'https://play.google.com/store/apps', imgSrc: appStore, alt: 'App Store' },
-            { href: 'https://play.google.com/store/games?hl=en', imgSrc: googlePlay, alt: 'Google Play' },
+            { url: 'https://discord.com/', imgSrc: discord, alt: 'Discord' },
+            { url: 'https://play.google.com/store/apps', imgSrc: appStore, alt: 'App Store' },
+            { url: 'https://play.google.com/store/games?hl=en', imgSrc: googlePlay, alt: 'Google Play' },
         ],
     },
 ];
@@ -24,11 +24,9 @@ export const NAV_LINK_LIST = [
 
 export const EXPLORE_DATA_LIST = [
     {
-        icon: 'circle',
         description: "Play with your own cute & adorable girls who are in charge of saving NANOSPACE world."
     },
     {
-        icon: 'circle',
         description: "Characters are fully customizable with various costumes, attractive gears and powerful weapons."
     }
 ];

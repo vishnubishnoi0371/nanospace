@@ -14,7 +14,7 @@ const NavLayout = () => {
             <nav className="container flex items-center justify-between ">
                 <Link onClick={() => setIsOpen(false)} to="/">
                     <img
-                        className='w-[117px] h-9 sm:w-[135px] sm:h-[46px] md:w-[150px] md:h-[50px] lg:w-[180px] lg:h-[54px] relative z-50'
+                        className='w-[117px] h-9 sm:w-[135px] sm:h-[46px] md:w-[150px] md:h-[50px] relative z-50'
                         src={logo}
                         alt="logo"
                         width={154}

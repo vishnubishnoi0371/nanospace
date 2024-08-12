@@ -1,6 +1,7 @@
 import NavLayout from './common/NavLayout';
 import { HEADER_DATA_LIST } from '../utils/helper';
 import headerBottom from '../assets/images/webp/header-bottom-layer.png'
+import { Link } from 'react-router-dom';
 const Header = () => {
 
     return (
@@ -19,13 +20,13 @@ const Header = () => {
                             {HEADER_DATA_LIST.map((item, index) => (
                                 <div key={index} className="flex items-center justify-center gap-4">
                                     {item.links.map((link, linkIndex) => (
-                                        <a key={linkIndex} target="_blank" rel="noopener noreferrer" href={link.href}>
+                                        <Link key={linkIndex} target="_blank" rel="noopener noreferrer" to={link.url}>
                                             <img
                                                 className=""
                                                 src={link.imgSrc}
                                                 alt={link.alt}
                                             />
-                                        </a>
+                                        </Link>
                                     ))}
                                 </div>
                             ))}
