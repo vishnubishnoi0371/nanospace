@@ -6,9 +6,9 @@ import googlePlay from '../assets/images/svg/google-play.svg';
 export const HEADER_DATA_LIST = [
     {
         links: [
-            { url: 'https://discord.com/', imgSrc: discord, alt: 'Discord' },
-            { url: 'https://play.google.com/store/apps', imgSrc: appStore, alt: 'App Store' },
-            { url: 'https://play.google.com/store/games?hl=en', imgSrc: googlePlay, alt: 'Google Play' },
+            { url: 'https://discord.com/', img: discord, alt: 'Discord' },
+            { url: 'https://play.google.com/store/apps', img: appStore, alt: 'App Store' },
+            { url: 'https://play.google.com/store/games?hl=en', img: googlePlay, alt: 'Google Play' },
         ],
     },
 ];
