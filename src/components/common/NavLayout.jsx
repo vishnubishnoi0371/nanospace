@@ -17,15 +17,14 @@ const NavLayout = () => {
     }, [isOpen])
     return (
         <div className='shadow-nav-shadow relative z-50 backdrop-blur-lg max-sm:py-3 max-lg:py-5'>
-            <nav className="container flex items-center justify-between ">
+            <nav className="container px-5 lg:px-3 flex items-center justify-between ">
                 <Link onClick={() => setIsOpen(false)} to="/">
                     <img
                         className='w-[135px] h-[46px] md:w-[150px] md:h-[50px] relative z-50'
                         src={logo}
                         alt="logo"
                         width={154}
-                        height={48}
-                    />
+                        height={48}/>
                 </Link>
                 <div className={`${isOpen ? "left-0" : "-left-full"} flex common-transition items-center max-lg:flex-col max-lg:fixed max-lg:justify-center max-lg:items-center max-lg:min-h-screen max-lg:w-full z-40 max-lg:top-0 max-lg:bg-black px-6 sm:px-0 sm:pr-9 xl:pr-0 `}>
                     {NAV_LINK_LIST.map((item, index) => (
