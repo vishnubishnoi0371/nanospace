@@ -38,9 +38,7 @@ module.exports = {
         'hero-bg': 'url(../src/assets/images/webp/hero-bg.webp)',
       },
       boxShadow: {
-        'custom-shadow': '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.1)',
         'nav-shadow': '0px 7px 10.9px 0px #0000002E',
-        'login-cards': '0 0 16px 6px #A9A9A91F',
 
       },
       borderImageSource: {

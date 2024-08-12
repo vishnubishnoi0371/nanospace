@@ -6,12 +6,14 @@ import { EXPLORE_DATA_LIST } from '../utils/helper';
 
 const Explore = () => {
     return (
-        <div className='relative overflow-hidden min-h-screen bg-dark-black'>
-            <img className='lg:absolute max-lg:relative z-10 md:w-[500px] md:h-[700px] lg:w-[700px] lg:h-[900px] xl:w-[880px] xl:h-[1070px] left-3 lg:left-10 lg:-bottom-[30%]' src={gunGirl} alt="Girl" />
-            <div className="container">
-                <div className='flex relative flex-col justify-end lg:items-end z-50 -mt-20 lg:mt-20'>
-                    <img className='absolute lg:size-[256px] size-[180px] right-0 -top-[25%]' src={robotHead} alt="robot" />
-                    <div className='p-5 md:p-8 lg:p-[50px] rounded-[10px] bg-white bg-opacity-[4%]'>
+        <div className='max-w-[1920px] mx-auto'>
+
+        <div className='relative overflow-hidden min-h-[650px] xl:min-h-[800px] pb-20 bg-dark-black'>
+            <img className='absolute z-10 md:w-[500px] md:h-[700px] lg:w-[700px] lg:h-[900px] xl:w-[880px] xl:h-[1070px] left-3 lg:left-10  lg:-bottom-[30%]' src={gunGirl} alt="Girl" />
+            <div className="container custom-container">
+                <div className='flex relative flex-col justify-end md:items-end z-50 md:mt-20'>
+                    <img className='md:absolute lg:size-[256px] size-[180px] hidden md:block right-0 z-30 md:top-0 lg:-top-[25%]' src={robotHead} alt="robot" />
+                    <div className='p-5 md:p-8 lg:p-[50px] rounded-[10px] backdrop-blur-[30px] lg:backdrop-blur-[10px] max-w-full max-sm:mt-[320px] max-lg:mt-36 max-md:mt-[350px] bg-white bg-opacity-[4%]'>
                         <img className='w-[234px] h-[73px]' src={logo} alt="" />
                         <h2 className='font-bold text-start font-Orbitron text-3xl md:text-custom-4xl text-white mb-4 mt-6 !leading-120'>Explore NANOSPACE</h2>
                         <p className='font-normal text-start font-Saira text-lg md:text-xl text-white !leading-150'>Find best in class heart-pounding idle RPG experience</p>
@@ -26,6 +28,7 @@ const Explore = () => {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     )
 }
